@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.buttons {
+    margin: 20px 0px;
+}
+
+#submitBtn, #resetBtn {
+    float: left;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+#resetBtn {
+    /* Overwrite float to right */
+    float: right;
+}

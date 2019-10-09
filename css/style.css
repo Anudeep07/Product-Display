@@ -1,0 +1,39 @@
+/* Mobile */
+
+#allProducts {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.productInfo {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#register {
+    padding: 10px;
+    text-align: end;
+}
+
+#queueDetails {
+    padding: 10px;
+    text-align: end;
+}
+
+@media (min-width: 600px) {
+    /* Tablets */
+    #allProducts {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Desktop */
+    #allProducts {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
