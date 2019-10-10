@@ -17,10 +17,12 @@ input[type=text], textarea {
 
 .buttons {
     margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
 }
 
-#submitBtn, #resetBtn {
-    float: left;
+#submitBtn, #resetBtn, #backBtn {
+    /*float: left;*/
     color: white;
     background-color: black;
     border: none;
@@ -30,6 +32,14 @@ input[type=text], textarea {
 }
 
 #resetBtn {
-    /* Overwrite float to right */
-    float: right;
+    background-color: red;
+}
+
+#submitBtn {
+    background-color: blue;
+}
+
+.statusMessage {
+    text-align: center;
+
 }
